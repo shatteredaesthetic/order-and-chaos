@@ -1,0 +1,10 @@
+{
+  "modules": true,
+  "parser": "sugarss",
+  "plugins": {
+    "autoprefixer": {
+      "grid": true
+    },
+    "precss": {}
+  }
+}

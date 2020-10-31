@@ -1,0 +1,37 @@
+{
+  "name": "order_and_chaos",
+  "version": "0.1.0",
+  "description": "The game Order and Chaos, implemented with js-csp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shatteredaesthetic/order-and-chaos"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "test": "babel-tape-runner test/**/*.test.mjs | faucet"
+  },
+  "keywords": [],
+  "author": "shatteredaesthetic",
+  "license": "ISC",
+  "dependencies": {
+    "js-csp": "^1.0.1",
+    "nanohtml": "^1.9.1",
+    "nanomorph": "^5.4.2",
+    "transducers.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "babel-tape-runner": "^3.0.0",
+    "faucet": "^0.0.1",
+    "postcss-modules": "^3.2.2",
+    "precss": "^4.0.0",
+    "sugarss": "^3.0.1",
+    "tape": "^5.0.1"
+  }
+}
